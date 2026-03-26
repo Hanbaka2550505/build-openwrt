@@ -25,7 +25,6 @@ sed -i 's/192.168.1.1/192.168.25.4/g' package/base-files/files/bin/config_genera
 #
 # 添加常用插件（推荐）
 svn co https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-lucky/luci-app-lucky package/luci-app-lucky
-svn co 
 
 # 默认主题
 sed -i "s/luci-theme-bootstrap/luci-theme-argon/g" feeds/luci/collections/luci/Makefile
